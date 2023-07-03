@@ -10,7 +10,7 @@
     "test": "jest"
   },
   "dependencies": {
-    "@syncfusion/ej2-vue-grids": "^22.1.36",
+    "@syncfusion/ej2-vue-grids": "*",
     "core-js": "^3.8.3",
     "vue": "^2.6.14"
   },
