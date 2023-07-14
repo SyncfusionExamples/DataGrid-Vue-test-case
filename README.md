@@ -14,4 +14,4 @@ Run `npm install` to install the required packages in this application.
 
 ## Further help
 
-For more detailed information on setting up testing in Vue, refer to the official [Vue documentation]([https://angular.io/guide/testing#set-up-testin](https://v2.vuejs.org/v2/guide/testing.html))
+For more detailed information on setting up testing in Vue, refer to the official [Vue documentation](https://v2.vuejs.org/v2/guide/testing.html)
