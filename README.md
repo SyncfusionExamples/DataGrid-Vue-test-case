@@ -1,4 +1,4 @@
-# DataGrid-Vue-test-case
+# Syncfusion DataGrid with jest test case on Vue
 Vue [Jest](https://v2.vuejs.org/v2/guide/testing.html) testing is a popular approach to test Vue applications using the Jest testing framework. This approach involves the creation and execution of unit tests specifically designed for Vue components. By conducting unit testing, which focuses on testing isolated units of code like functions, methods, and components to ensure that they behave as expected. This approach validates the individual units of your Vue components, catch potential bugs early in the development process, and maintains the reliability and stability of your Vue application.
 
 ## Node version
