@@ -1,17 +1,56 @@
-# Syncfusion DataGrid with jest test case on Vue
-Vue [Jest](https://v2.vuejs.org/v2/guide/testing.html) testing is a popular approach to test Vue applications using the Jest testing framework. This approach involves the creation and execution of unit tests specifically designed for Vue components. By conducting unit testing, which focuses on testing isolated units of code like functions, methods, and components to ensure that they behave as expected. This approach validates the individual units of your Vue components, catch potential bugs early in the development process, and maintains the reliability and stability of your Vue application.
+# Syncfusion DataGrid with Jest Test Case on Vue
 
-## Node version
-Need to verify if the installed version of Node is 14 or higher. If it is below version 14, you must install a version of Node above 14. You can refer to the following link to install the [node version](https://nodejs.org/en/download). You can select any node version that is 14 or above and installed.
+## Repository Description
 
-## Install packages
+This repository contains a Vue.js sample application that demonstrates how to write and execute Jest unit test cases for a Syncfusion Vue DataGrid component.
 
-Run `npm install` to install the required packages in this application.
+## Project Overview
 
-## Running unit tests
+This sample showcases how to integrate Jest testing into a Vue application that uses the Syncfusion Vue DataGrid. Unit testing is an important practice for validating individual components and ensuring application stability. In this project, Jest is used along with Vue Test Utils to test the behavior of a Syncfusion DataGrid rendered inside a Vue component.
 
-`npm run test` to execute the unit test case
+The application renders a DataGrid bound to a local data source and includes a unit test that verifies the number of records bound to the grid. This approach helps developers validate component behavior early in the development cycle and catch potential issues before deployment.
 
-## Further help
+## Key Features
 
-For more detailed information on setting up testing in Vue, refer to the official [Vue documentation](https://v2.vuejs.org/v2/guide/testing.html)
+- Syncfusion Vue DataGrid integration
+- Jest-based unit testing setup for Vue components
+- Validation of grid data binding through test cases
+- Lightweight sample focused on testing fundamentals
+
+## Node Version Requirement
+
+Verify that the installed Node.js version is 14 or higher. If the installed version is below 14, install a newer version from the official Node.js website:
+<https://nodejs.org/en/download>
+
+## Running and Testing the Application
+
+Follow the steps below to install dependencies, run the application, and execute unit tests.
+
+1. Install the required npm packages:
+
+   ```bash
+   npm install
+   ```
+
+2. Run the application locally for development or manual verification:
+
+   ```bash
+   npm run serve
+   ```
+
+   Once the development server starts, open the displayed local URL in a browser to view the Syncfusion DataGrid.
+
+3. Execute the Jest unit test cases:
+
+   ```bash
+   npm run test
+   ```
+
+    The test validates that the DataGrid is rendered with the expected number of records based on the bound data source.
+
+## Additional Resources
+
+- [Vue Testing Documentation](https://vuejs.org/guide/scaling-up/testing)
+- [Jest Documentation](https://jestjs.io/docs/getting-started)
+- [Syncfusion Vue Grid Documentation](https://ej2.syncfusion.com/vue/documentation/grid/getting-started)
+- [Syncfusion Vue Grid Demos](https://ej2.syncfusion.com/vue/demos)
