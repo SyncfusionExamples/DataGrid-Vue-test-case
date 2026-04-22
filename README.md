@@ -26,13 +26,20 @@ Verify that the installed Node.js version is 14 or higher. If the installed vers
 
 Follow the steps below to install dependencies, run the application, and execute unit tests.
 
-1. Install the required npm packages:
+1. Clone the repository and navigate to the project directory:
+
+   ```bash
+   git clone https://github.com/SyncfusionExamples/DataGrid-Vue-test-case.git
+   cd DataGrid-Vue-test-case
+   ```
+
+2. Install the required npm packages:
 
    ```bash
    npm install
    ```
 
-2. Run the application locally for development or manual verification:
+3. Run the application locally for development or manual verification:
 
    ```bash
    npm run serve
@@ -40,7 +47,7 @@ Follow the steps below to install dependencies, run the application, and execute
 
    Once the development server starts, open the displayed local URL in a browser to view the Syncfusion DataGrid.
 
-3. Execute the Jest unit test cases:
+4. Execute the Jest unit test cases:
 
    ```bash
    npm run test
